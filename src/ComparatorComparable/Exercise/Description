@@ -1,0 +1,16 @@
+
+Stwórz klasę Employee, która będzie zawierała pola takie jak, imię, nazwisko, wiek oraz wypłata.
+Stwórz 10 takich pracowników i dodaj ich do listy.
+Zaimplementuj metodę compareTo(), która posortuje pracowników odpowiednio po:
+imieniu rosnąco,
+nazwisku malejąco,
+wieku rosnąco,
+wypłacie malejąco.
+
+Następnie zaimplementuj Comparator, który posortuje pracowników odpowiednio po:
+imieniu malejąco,
+nazwisku malejąco,
+wieku rosnąco,
+wypłacie rosnąco.
+Na koniec zaimplementuj Comparator, który posortuje pracowników w kolejności odwrotnej niż poprzedni
+komparator.
