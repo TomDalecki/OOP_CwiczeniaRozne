@@ -12,7 +12,7 @@ public class RelacjeUczenNauczyciel {
         uczen[1] = new Uczen("Romek", "Romkowski");
         uczen[2] = new Uczen("Atomek", "Atomowski");
 
-        CzarnyHarakter czarnyHarakter = new CzarnyHarakter("no", "name");
+        CzarnyCharakter czarnyCharakter = new CzarnyCharakter("no", "name");
 
         nauczyciel1.zadajeZadanie(uczen);
         System.out.println("-----------------------------");
