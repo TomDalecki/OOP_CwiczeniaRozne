@@ -9,7 +9,7 @@ public class IOExercises {
         file.createNewFile();
 
         File directory = new File("testdirectory" + File.separator + "nestedtestdirectory");
-        directory.mkdir();
+        directory.mkdirs();
 
         File directory2 = new File("testdirectory" + File.separator + "nestedtestdirectory", "newtest.txt");
         if (!directory2.exists()) {
